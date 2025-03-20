@@ -1,12 +1,13 @@
-# React + Vite
+To Do List App
+------
+This is a simple react app that allows users to create and mangage their daily tasks.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Installation
+------------
+1. To run this app, you need to have node.js and npm installed on your computer.
+2. Clone or download todo-list app repository.
+3. Navigate to the todo-list app directory in the terminal `cd todo-list`.
+3. Run `npm install` to install all dependencies for the todo-list app.
+4. Run `npm run dev` to run the todo-list app.
+5. Open your browser and navigate to `http://localhost:5173/` to view/use the todo-list app.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
