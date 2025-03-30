@@ -23,8 +23,8 @@ export default [
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
-      'no-unused-vars': 'warn',
-      'react/prop-types': 'off',
+      'no-unused-vars': 'off', //this changes the error to a warning
+      'react/prop-types': 'off', //this suppresses warnings about not using prop-types
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
