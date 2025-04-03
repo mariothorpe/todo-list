@@ -11,7 +11,7 @@ function TodoList() {
         <ul>
             {todos.map((todo) => ( 
                 <TodoListItem key={todo.id} todo={todo} />
-          ))}
+            ))}
         </ul>
     );
 }
