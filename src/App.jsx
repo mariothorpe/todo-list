@@ -4,14 +4,18 @@ import TodoForm from './TodoForm';
 import { useState } from 'react';
 
 function App() {
-  const [newTodo, setNewTodo] = useState('hi');
+  const [todoList, setTodoList] = useState([]);
+  // console.log(JSON.stringify(todoList, null, 2));
+  function handleAddTodo(title) {
+    const newTodo = { title: title, id: Date.now() };
+    setTodoList([...todoList, newTodo]);
+  }
   return (
-   <div>
-    <h1>My Todo List</h1>
-    <TodoForm />
-    <p>{newTodo}</p>
-    <TodoList />
-   </div>
+    <div>
+      <h1>My Todo List</h1>
+      <TodoForm onAddTodo={handleAddTodo} />
+      <TodoList todoList={todoList} />
+    </div>
   );
 }
 
