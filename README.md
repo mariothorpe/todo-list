@@ -1,7 +1,9 @@
 To Do List App
-------
+-------
+Description
+------------
 This is a simple react app that allows users to create and mangage their daily tasks.
-
+------------
 Installation
 ------------
 1. To run this app, you need to have node.js and npm installed on your computer.
