@@ -289,8 +289,3 @@ function App() {
 }
 
 export default App;
-
-<div>
-  <search>Search Todos:</search>
-  <button>Clear</button>
-</div>
