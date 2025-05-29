@@ -70,7 +70,7 @@ function TodosViewForm({
           }}
         >
           <option value="title">Title</option>
-          <option value="createdTime">Time added</option>
+          <option value="createdTime">Time Added</option>
         </select>
 
         <label>Direction</label>
