@@ -1,0 +1,11 @@
+/* imported custom font from google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chela+One&display=swap');
+
+.unorderedList {
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  list-style-type: none;
+  font-size: 1.15em;
+  font-family: 'Chela One', system-ui;
+}
