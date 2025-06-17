@@ -5,8 +5,11 @@ import styled from 'styled-components';
 
 const StyledForm = styled.form`
   display: flex;
-  gap: 0.75em;
-`;
+  gap: 0.25em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  `;
 
 const StyledButton = styled.button`
   padding: 1rem;
@@ -23,12 +26,14 @@ const StyledButton = styled.button`
 function TodoForm({ onAddTodo, isSaving }) {
   const [workingTodo, setWorkingTodo] = useState('');
   const todoTitleInput = useRef('');
+
   function handleAddTodo(event) {
     event.preventDefault();
     onAddTodo(workingTodo);
     setWorkingTodo('');
     todoTitleInput.current.focus();
   }
+  
   return (
     <StyledForm onSubmit={handleAddTodo}>
       <TextInputWithLabel

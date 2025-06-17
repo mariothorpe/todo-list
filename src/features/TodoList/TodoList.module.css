@@ -8,4 +8,17 @@
   list-style-type: none;
   font-size: 1.15em;
   font-family: 'Chela One', system-ui;
+  align-items: center;
+  justify-content: center;
 }
+
+.paginationControls {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.paginationPageNumber {
+    margin: 0 0.25rem;
+}
+

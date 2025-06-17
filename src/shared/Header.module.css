@@ -1,0 +1,21 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.active {
+    color: black;
+}
+
+.inactive {
+    color: black;
+}
+
+.title {
+    color: black;
+    text-align: center;
+}
+
+.nav {
+    position: relative;
+    text-align: end;
+}

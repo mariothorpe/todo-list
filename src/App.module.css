@@ -6,8 +6,6 @@
   margin: 1em;
   border: 0.75em groove black;
   border-radius: 5em;
-  align-items: center;
-  justify-content: center;
 }
 
 .error {
